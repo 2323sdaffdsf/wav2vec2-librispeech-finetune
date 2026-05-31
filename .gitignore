@@ -1,0 +1,18 @@
+# 忽略所有音频数据和中间预处理数据
+data/
+hf_cache/
+
+# 忽略本地大模型权重（包括官方离线模型和你的微调 Checkpoint）
+models/
+checkpoint-*/
+
+# 忽略 Python 虚拟环境及缓存
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# 忽略 IDE 和系统临时文件
+.vscode/
+.idea/
+.DS_Store
+hub/
